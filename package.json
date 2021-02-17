@@ -1,7 +1,7 @@
 {
-  "name": "fprt_backend_frontend",
+  "name": "my_medica",
   "version": "1.0.0",
-  "description": "MERN shopping cart app",
+  "description": "FPRT",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -13,8 +13,16 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attainu/fullstack-project-kunal-kumar-au8.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attainu/fullstack-project-kunal-kumar-au8/issues"
+  },
+  "homepage": "https://github.com/attainu/fullstack-project-kunal-kumar-au8#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
